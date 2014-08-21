@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Zendy Mailman makes sure all the email messages sent by your Wordpress site are delivered successfully by using SMTP rather than the built-in Wordpress PHP mailer.
+Zendy Mailman improves deliverabilty of emails sent by your website by using SMTP rather than the built-in Wordpress PHP mailer.
 
 == Description ==
 
@@ -55,3 +55,8 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 * Feature: test your plugin SMTP settings by sending email via the test form.
 * Feature: FAQ, including settings for some of the most popular email providers
 
+= 1.0.1 =
+* Meta: added screenshots for Wordpress.org plugin directory
+
+= 1.0.2 =
+* Meta: changed description of Wordpress plugin for Wordpress.org plugin directory
