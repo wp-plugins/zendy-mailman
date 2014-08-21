@@ -4,7 +4,7 @@ Donate link: http://hq.zendy.net/wordpress/plugins/mailman/donate/
 Tags: email, smtp
 Requires at least: 3.9.1
 Tested up to: 3.9.1
-Stable tag: trunk
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,3 +60,6 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 
 = 1.0.2 =
 * Meta: changed description of Wordpress plugin for Wordpress.org plugin directory
+
+= 1.0.3 =
+* Meta: changed stable tag number
