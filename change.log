@@ -1,0 +1,5 @@
+= 1.0 =
+* Initial release
+* Feature: all emails sent via built-in Wordpress mailer will use SMTP instead of PHP mail.
+* Feature: test your plugin SMTP settings by sending email via the test form.
+* Feature: FAQ, including settings for some of the most popular email providers
