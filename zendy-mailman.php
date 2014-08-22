@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Zendy Mailman
-Version: 1.0
+Version: 1.0.5
 Plugin URI: https://hq.zendy.net/wordpress/plugins/mailman/
 Author: Zendy Labs
 Author URI: https://hq.zendy.net/
@@ -833,3 +833,5 @@ add_action( 'admin_enqueue_scripts', 'zendy_mailman_admin_head' );
 
 // Uninstall hook
 register_uninstall_hook( plugin_basename( __FILE__ ), 'zendy_mailman_send_uninstall' );
+
+?>
