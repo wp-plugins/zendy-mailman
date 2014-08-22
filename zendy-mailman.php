@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Zendy Mailman
-Version: 1.0.5
+Version: 1.0.6
 Plugin URI: https://hq.zendy.net/wordpress/plugins/mailman/
 Author: Zendy Labs
 Author URI: https://hq.zendy.net/
@@ -430,7 +430,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 				<h3 class="zendy-mailman-title">The friendly email delivery system for Wordpress</h3>
 				<p class="zendy-mailman-title">Zendy Mailman makes sure all the email messages sent by your Wordpress site are delivered successfully.</p>
 
-				<?
+				<?php
 				
 				// Tabs list
 				$tabs = array( 'settings' => 'Settings', 'troubleshooting' => 'Troubleshooting', 'faq' => 'FAQ' );
@@ -454,7 +454,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 			
 			
 				
-				<?
+				<?php
 				
 				// ############# START: SETTINGS TAB ##############
 				if( $current == 'settings' ){
@@ -551,7 +551,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 							
 					</form>
 			
-					<?
+					<?php
 				// ############# END: SETTINGS TAB ##############
 	
 				// ############# START: TROUBLESHOOTING TAB ##############		
@@ -604,7 +604,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 									
 					</form>
 		
-					<?
+					<?php
 		
 				// ############# END: SETTINGS TAB ##############
 	
@@ -699,7 +699,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 						<p>On shared hosting servers (most Wordpress sites are on shared hosting servers) the Wordpress mailer often gets flagged as spam or even blacklisted. Zendy Mailman uses SMTP mail instead of relying on the Wordpress mailer.</p>
 						
 					</div>
-					<?
+					<?php
 				
 				}
 				// ############# END: SETTINGS TAB ##############
@@ -710,7 +710,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 
 		</div><!--  #zendy-mailman-mail .zendy-mailman-mail -->
 		
-		<? 
+		<?php
 			
 	} // zendy_mailman_settings()
 
@@ -833,5 +833,3 @@ add_action( 'admin_enqueue_scripts', 'zendy_mailman_admin_head' );
 
 // Uninstall hook
 register_uninstall_hook( plugin_basename( __FILE__ ), 'zendy_mailman_send_uninstall' );
-
-?>

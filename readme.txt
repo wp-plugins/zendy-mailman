@@ -4,7 +4,7 @@ Donate link: http://hq.zendy.net/wordpress/plugins/mailman/donate/
 Tags: email, smtp
 Requires at least: 3.9.1
 Tested up to: 3.9.1
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,24 +49,32 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 
 == Changelog ==
 
+= 1.0.6 =
+* Fix: fixed errors on activation on some nginx installs
+* Meta: Removed change.log file; all changelog info is now in readme.txt
+
+= 1.0.5 =
+* Meta: changed stable tag
+* Fix: changed end of file to attempt to fix a bug on activation on some nginx installs
+
+= 1.0.4 =
+* Meta: removed screenshots from plugin files; they are now in the Wordpress plugin subversion repository, in the /assets folder
+
+= 1.0.3 =
+* Meta: changed stable tag number
+
+= 1.0.2 =
+* Meta: changed description of Wordpress plugin for Wordpress.org plugin directory
+
+= 1.0.1 =
+* Meta: added screenshots for Wordpress.org plugin directory
+
 = 1.0 =
 * Initial release
 * Feature: all emails sent via built-in Wordpress mailer will use SMTP instead of PHP mail.
 * Feature: test your plugin SMTP settings by sending email via the test form.
 * Feature: FAQ, including settings for some of the most popular email providers
 
-= 1.0.1 =
-* Meta: added screenshots for Wordpress.org plugin directory
 
-= 1.0.2 =
-* Meta: changed description of Wordpress plugin for Wordpress.org plugin directory
 
-= 1.0.3 =
-* Meta: changed stable tag number
 
-= 1.0.4 =
-* Meta: removed screenshots from plugin files; they are now in the Wordpress plugin subversion repository, in the /assets folder
-
-= 1.0.5 =
-* Meta: changed stable tag
-* Fix: changed end of file to attempt to fix a bug on activation on some nginx installs
