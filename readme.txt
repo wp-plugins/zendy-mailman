@@ -49,6 +49,11 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 
 == Changelog ==
 
+= 1.0.7 =
+* Meta: added Hotmail/Outlook settings to documentation
+* Meta: added Yahoo! Mail settings to documentation
+* Fix: fixed a display error where the chosen type of encryption was not always displayed properly.
+
 = 1.0.6 =
 * Fix: fixed errors on activation on some nginx installs
 * Meta: Removed change.log file; all changelog info is now in readme.txt

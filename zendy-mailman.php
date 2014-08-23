@@ -498,8 +498,8 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 									<th><?php _e( 'Type of Encription', 'zendy_mailman' ); ?></th>
 									<td>
 										<select name="zendy_mailman_smtp_encryption_type">
-											<option value='ssl' <?php if( 'none' == $zendy_mailman_options['smtp_settings']['encryption_type'] ) echo 'selected="selected"'; ?>><?php _e( 'SSL', 'zendy_mailman' ); ?></option>
-											<option value='tls' <?php if( 'none' == $zendy_mailman_options['smtp_settings']['encryption_type'] ) echo 'selected="selected"'; ?>><?php _e( 'TLS', 'zendy_mailman' ); ?></option>
+											<option value='ssl' <?php if( 'ssl' == $zendy_mailman_options['smtp_settings']['encryption_type'] ) echo 'selected="selected"'; ?>><?php _e( 'SSL', 'zendy_mailman' ); ?></option>
+											<option value='tls' <?php if( 'tls' == $zendy_mailman_options['smtp_settings']['encryption_type'] ) echo 'selected="selected"'; ?>><?php _e( 'TLS', 'zendy_mailman' ); ?></option>
 											<option value='none' <?php if( 'none' == $zendy_mailman_options['smtp_settings']['encryption_type'] ) echo 'selected="selected"'; ?>><?php _e( 'None', 'zendy_mailman' ); ?></option>
 										</select>
 									</td>
@@ -691,6 +691,80 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 								<td>The password for your Gmail or Google email address</td>
 							</tr>
 						</table>
+
+						<h3>SMTP settings for Hotmail / Outlook</h3>
+						<table cellpadding="0" cellspacing="0" border="1">
+							<tr>
+								<th>From Email Address</th>
+								<td>Any email address</td>
+							</tr>
+							<tr>
+								<th>From Name</th>
+								<td>Any name - your business name or your personal name</td>
+							</tr>
+							<tr>
+								<th>SMTP Host</th>
+								<td>smtp.live.com</td>
+							</tr>
+							<tr>
+								<th>Type of Encryption</th>
+								<td>TLS</td>
+							</tr>
+							<tr>
+								<th>SMTP Port</th>
+								<td>587</td>
+							</tr>
+							<tr>
+								<th>SMTP Authentication</th>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<th>SMTP Username</th>
+								<td>your Hotmail or Outlook email address - non-Microsoft aliases don't always work so make sure your @hotmail.com or @outlook.com address is set as the primary alias in your account</td>
+							</tr>
+							<tr>
+								<th>SMTP Username</th>
+								<td>The password for your Hotmail or Outlook email address</td>
+							</tr>
+						</table>
+
+						<h3>SMTP settings for Yahoo! Mail</h3>
+						<table cellpadding="0" cellspacing="0" border="1">
+							<tr>
+								<th>From Email Address</th>
+								<td>Any email address</td>
+							</tr>
+							<tr>
+								<th>From Name</th>
+								<td>Any name - your business name or your personal name</td>
+							</tr>
+							<tr>
+								<th>SMTP Host</th>
+								<td>smtp.mail.yahoo.com</td>
+							</tr>
+							<tr>
+								<th>Type of Encryption</th>
+								<td>SSL</td>
+							</tr>
+							<tr>
+								<th>SMTP Port</th>
+								<td>465</td>
+							</tr>
+							<tr>
+								<th>SMTP Authentication</th>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<th>SMTP Username</th>
+								<td>your Hotmail or Outlook email address - non-Microsoft aliases don't always work so make sure your @hotmail.com or @outlook.com address is set as the primary alias in your account</td>
+							</tr>
+							<tr>
+								<th>SMTP Username</th>
+								<td>The password for your Hotmail or Outlook email address</td>
+							</tr>
+						</table>
+						
+
 						
 						<h3>What does Zendy Mailman do?</h3>
 						<p>Zendy Mailman increases the delivery rate of emails sent by your Wordpress site (like contact form notifications and new subscriber alerts). In other words, the emails sent by your Wordpress website are less likely to be flagged as spam.</p>
