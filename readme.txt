@@ -3,8 +3,8 @@ Contributors: ZendyLabs
 Donate link: http://hq.zendy.net/wordpress/plugins/mailman/donate/
 Tags: email, smtp
 Requires at least: 3.9.1
-Tested up to: 3.9.1
-Stable tag: 1.0.7
+Tested up to: 3.9.2
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,7 @@ Zendy Mailman improves deliverabilty of emails sent by your website by using SMT
 
 == Description ==
 
-Zendy Mailman: the friendly email delivery system for Wordpress
-
-Zendy Mailman makes sure all the email messages sent by your Wordpress site are delivered successfully by using SMTP rather than the built-in Wordpress PHP mailer.
+Zendy Mailman: the friendly email delivery system for Wordpress. Zendy Mailman makes sure all the email messages sent by your Wordpress site are delivered successfully by using SMTP rather than the built-in Wordpress PHP mailer.
 
 == Installation ==
 
@@ -26,7 +24,7 @@ Zendy Mailman makes sure all the email messages sent by your Wordpress site are 
 
 = Where do I find my SMTP settings? =
 
-Your web host (or email provider) will provide that for you. However you can visit our plugin website to see settings for the most popular email providers.
+Your web host (or email provider) will provide that for you. However you can visit our plugin website to see settings for the most popular email providers. Note: common SMTP settings are available from the plugin settings screen and on [our website](https://hq.zendy.net/wordpress/plugins/mailman/ "Zendy Mailman").
 
 = What does Zendy Mailman do? =
 
@@ -48,6 +46,11 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 3. The FAQ, including settings for some of the most popular email providers 
 
 == Changelog ==
+
+= 1.0.8 =
+* Meta: tested plugin on Wordpress 3.9.2
+* Meta: added link to Zendy Labs HQ documentation on plugin FAQ
+* Meta: added GoDaddy Mail settings to documentation
 
 = 1.0.7 =
 * Meta: added Hotmail/Outlook settings to documentation

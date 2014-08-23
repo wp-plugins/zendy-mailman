@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Zendy Mailman
-Version: 1.0.7
+Version: 1.0.8
 Plugin URI: https://hq.zendy.net/wordpress/plugins/mailman/
 Author: Zendy Labs
 Author URI: https://hq.zendy.net/
@@ -684,11 +684,11 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 							</tr>
 							<tr>
 								<th>SMTP Username</th>
-								<td>your Gmail or Google email address</td>
+								<td>your Rackspace email address</td>
 							</tr>
 							<tr>
 								<th>SMTP Username</th>
-								<td>The password for your Gmail or Google email address</td>
+								<td>The password for your Rackspace email address</td>
 							</tr>
 						</table>
 
@@ -756,11 +756,48 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 							</tr>
 							<tr>
 								<th>SMTP Username</th>
-								<td>your Hotmail or Outlook email address - non-Microsoft aliases don't always work so make sure your @hotmail.com or @outlook.com address is set as the primary alias in your account</td>
+								<td>your Hotmail or Yahoo! email address</td>
 							</tr>
 							<tr>
 								<th>SMTP Username</th>
-								<td>The password for your Hotmail or Outlook email address</td>
+								<td>The password for your Yahoo! email address</td>
+							</tr>
+						</table>
+						
+
+						<h3>SMTP settings for GoDaddy</h3>
+						<table cellpadding="0" cellspacing="0" border="1">
+							<tr>
+								<th>From Email Address</th>
+								<td>Any email address</td>
+							</tr>
+							<tr>
+								<th>From Name</th>
+								<td>Any name - your business name or your personal name</td>
+							</tr>
+							<tr>
+								<th>SMTP Host</th>
+								<td>smtpout.secureserver.net</td>
+							</tr>
+							<tr>
+								<th>Type of Encryption</th>
+								<td>SSL</td>
+							</tr>
+							<tr>
+								<th>SMTP Port</th>
+								<td>465</td>
+							</tr>
+							<tr>
+								<th>SMTP Authentication</th>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<th>SMTP Username</th>
+								<td>your GoDaddy email address</td>
+							</tr>
+							<tr>
+								<th>SMTP Username</th>
+								<td>The password for your GoDaddy email address</td>
 							</tr>
 						</table>
 						
