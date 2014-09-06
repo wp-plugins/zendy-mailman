@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Zendy Mailman
-Version: 1.0.8
+Version: 1.0.9
 Plugin URI: https://hq.zendy.net/wordpress/plugins/mailman/
 Author: Zendy Labs
 Author URI: https://hq.zendy.net/
