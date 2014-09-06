@@ -3,8 +3,8 @@ Contributors: ZendyLabs
 Donate link: http://hq.zendy.net/wordpress/plugins/mailman/donate/
 Tags: email, smtp
 Requires at least: 3.9.1
-Tested up to: 3.9.2
-Stable tag: 1.0.9
+Tested up to: 4.0
+Stable tag: 1.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,9 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 3. The FAQ, including settings for some of the most popular email providers 
 
 == Changelog ==
+
+= 1.0.10 =
+* Meta: tested WP 4.0
 
 = 1.0.9 =
 * Meta: updated FAQ
