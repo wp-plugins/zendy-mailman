@@ -37,6 +37,8 @@
 .zendy-mailman-logo{
 	float: left;
 }
+/* Headings 
+-----------------------------*/
 h1.zendy-mailman-title{
 	padding-top: 40px;
 	font-size: 24px;
@@ -56,6 +58,9 @@ h1.zendy-mailman-title, h3.zendy-mailman-title{
 .zendy-mailman-title{
 	margin-right: 60px 
 }
+
+/* Nav
+-----------------------------*/
 .nav-tab{
 }
 .nav-tab-active, .nav-tab-active:hover{
@@ -63,6 +68,9 @@ h1.zendy-mailman-title, h3.zendy-mailman-title{
 	z-index: 9999;
 	border-bottom: 1px solid #fff;
 }
+
+/* FAQ 
+-----------------------------*/
 .faq table th, .faq table td{
 	padding:8px 10px;
 	text-align: left;
@@ -106,7 +114,8 @@ h1.zendy-mailman-title, h3.zendy-mailman-title{
 	display: none !important;
 }
 
-
+/* Media Queries
+-----------------------------*/
 @media all and (max-width: 600px){
 	.zendy-mailman-logo{
 		display: none;
