@@ -6,7 +6,6 @@ Plugin URI: https://kauai.zendy.net/wordpress/plugins/zendy-mailman/
 Author: Zendy Web Studio
 Author URI: https://kauai.zendy.net
 Description: A simple SMTP mailer for Wordpress
-TODO: internationalize
 */
 
 // Add Zendy Mailman to Wordpress Settings
