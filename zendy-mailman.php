@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Zendy Mailman
-Version: 1.0.14
+Version: 1.0.15
 Plugin URI: https://kauai.zendy.net/wordpress/plugins/zendy-mailman/
 Author: Zendy Web Studio
 Author URI: https://kauai.zendy.net
@@ -127,8 +127,7 @@ if ( ! function_exists ( 'zendy_mailman_register_plugin_action_links' ) ) {
 	
 		// Add all new links into an array
 		$new_links = array(
-			'<a href="'. get_admin_url(null, 'options-general.php?page=zendy_mailman_settings') .'">Settings</a>',
-			'<a href="https://kauai.zendy.net/wordpress/plugins/zendy-mailman/" target="_blank">Premium Support</a>'
+			'<a href="'. get_admin_url(null, 'options-general.php?page=zendy_mailman_settings') .'">Settings</a>'
 		);
 
 		// Merge new links into main action links array
@@ -155,7 +154,7 @@ if ( ! function_exists ( 'zendy_mailman_register_plugin_row_meta_links' ) ) {
 		
 			// Add all new links into an array
 			$new_links = array(	
-				'<a href="https://kauai.zendy.net/wordpress/plugins/zendy-mailman/" target="_blank">More plugins by Zendy Labs</a>'
+				'<a href="https://kauai.zendy.net/wordpress/plugins/" target="_blank">More plugins by Zendy Web Studio</a>'
 			);
 		
 			// Merge new links into main row meta links array

@@ -2,8 +2,8 @@
 Contributors: ZendyLabs
 Tags: email, smtp
 Requires at least: 3.9.1
-Tested up to: 4.1
-Stable tag: 1.0.14
+Tested up to: 4.2.2
+Stable tag: 1.0.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,9 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 3. The FAQ, including settings for some of the most popular email providers 
 
 == Changelog ==
+
+= 1.0.15 =
+* Meta: Tested on WP 4.2.2
 
 = 1.0.14 =
 * Meta: Updated plugin links to new zendy website
