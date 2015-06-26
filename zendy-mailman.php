@@ -1,12 +1,11 @@
 <?php
 /*
 Plugin Name: Zendy Mailman
-Version: 1.0.13
-Plugin URI: https://hq.zendy.net/wordpress/plugins/mailman/
-Author: Zendy Labs
-Author URI: https://hq.zendy.net/
+Version: 1.0.15
+Plugin URI: https://kauai.zendy.net/wordpress/plugins/zendy-mailman/
+Author: Zendy Web Studio
+Author URI: https://kauai.zendy.net
 Description: A simple SMTP mailer for Wordpress
-TODO: internationalize
 */
 
 // Add Zendy Mailman to Wordpress Settings
@@ -128,8 +127,7 @@ if ( ! function_exists ( 'zendy_mailman_register_plugin_action_links' ) ) {
 	
 		// Add all new links into an array
 		$new_links = array(
-			'<a href="'. get_admin_url(null, 'options-general.php?page=zendy_mailman_settings') .'">Settings</a>',
-			'<a href="https://hq.zendy.net/wordpress/plugins/mailman/premium-support/" target="_blank">Premium Support</a>'
+			'<a href="'. get_admin_url(null, 'options-general.php?page=zendy_mailman_settings') .'">Settings</a>'
 		);
 
 		// Merge new links into main action links array
@@ -156,8 +154,7 @@ if ( ! function_exists ( 'zendy_mailman_register_plugin_row_meta_links' ) ) {
 		
 			// Add all new links into an array
 			$new_links = array(	
-				'<a href="https://hq.zendy.net/wordpress/plugins/" target="_blank">More plugins by Zendy Labs</a>',
-				'<a href="https://hq.zendy.net/wordpress/plugins/mailman/donate/" target="_blank">Donate</a>'
+				'<a href="https://kauai.zendy.net/wordpress/plugins/" target="_blank">More plugins by Zendy Web Studio</a>'
 			);
 		
 			// Merge new links into main row meta links array
@@ -614,7 +611,7 @@ if ( ! function_exists( 'zendy_mailman_settings' ) ) {
 			
 					?>
 			
-					<h2 class="zendy-mailman-form-title">FAQ<br><small>For more information about Zendy Mailman <a href="https://hq.zendy.net/wordpress/plugins/mailman/" target="_blank">visit our website</a>.</small>	</h2>	
+					<h2 class="zendy-mailman-form-title">FAQ<br><small>For more information about Zendy Mailman <a href="https://kauai.zendy.net/wordpress/plugins/zendy-mailman/" target="_blank">visit our website</a>.</small>	</h2>	
 					
 					<div class="faq">
 						<h3>Where do I find my SMTP settings?</h3>

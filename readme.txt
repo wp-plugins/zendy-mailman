@@ -1,10 +1,9 @@
 === Zendy Mailman ===
 Contributors: ZendyLabs
-Donate link: http://hq.zendy.net/wordpress/plugins/mailman/donate/
 Tags: email, smtp
 Requires at least: 3.9.1
-Tested up to: 4.1
-Stable tag: 1.0.13
+Tested up to: 4.2.2
+Stable tag: 1.0.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +23,7 @@ Zendy Mailman: the friendly email delivery system for Wordpress. Zendy Mailman m
 
 = Where do I find my SMTP settings? =
 
-Your web host (or email provider) will provide that for you. Note: common SMTP settings are available from the plugin settings screen and on [our website](https://hq.zendy.net/wordpress/plugins/mailman/ "Zendy Mailman").
+Your web host (or email provider) will provide that for you. Note: common SMTP settings are available from the plugin settings screen and on [our website](https://kauai.zendy.net/wordpress/plugins/zendy-mailman/ "Zendy Mailman").
 
 = What does Zendy Mailman do? =
 
@@ -46,6 +45,14 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 3. The FAQ, including settings for some of the most popular email providers 
 
 == Changelog ==
+
+= 1.0.15 =
+* Meta: Tested on WP 4.2.2
+* Meta: Updated plugin meta row
+* Meta: Removed premium support option - just email us if you see a bug in the plugin :)
+
+= 1.0.14 =
+* Meta: Updated plugin links to new zendy website
 
 = 1.0.13 =
 * Meta: Added section comments to style.css
