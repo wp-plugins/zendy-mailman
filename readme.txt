@@ -48,6 +48,8 @@ On shared hosting servers (most Wordpress sites are on shared hosting servers) t
 
 = 1.0.15 =
 * Meta: Tested on WP 4.2.2
+* Meta: Updated plugin meta row
+* Meta: Removed premium support option - just email us if you see a bug in the plugin :)
 
 = 1.0.14 =
 * Meta: Updated plugin links to new zendy website
